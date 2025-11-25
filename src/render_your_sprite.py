@@ -12,6 +12,7 @@ Optional environment variables / args can be added later.
 """
 import os
 import random
+import argparse
 from pathlib import Path
 from PIL import Image
 
@@ -66,11 +67,42 @@ def find_templates():
     return [p for p in TEMPLATE_DIR.iterdir() if p.name.endswith("_template.json")]
 
 
-def choose_random_template():
+def choose_template(template_choice: str = None):
+    """Return a Path to the chosen template.
+
+    If `template_choice` is None, pick a random template. Otherwise accept:
+    - a path to an existing file
+    - a filename (with or without `_template.json`)
+    - a substring to match a template filename
+    """
     templates = find_templates()
     if not templates:
         raise FileNotFoundError(f"No templates found in {TEMPLATE_DIR}")
-    return random.choice(templates)
+
+    if not template_choice:
+        return random.choice(templates)
+
+    # If user passed a path that exists, use it
+    choice_path = Path(template_choice)
+    if choice_path.exists():
+        return choice_path
+
+    # Direct filename in templates dir
+    candidate = TEMPLATE_DIR / template_choice
+    if candidate.exists():
+        return candidate
+
+    # Add suffix and try
+    candidate2 = TEMPLATE_DIR / f"{template_choice}_template.json"
+    if candidate2.exists():
+        return candidate2
+
+    # Try substring match
+    for p in templates:
+        if template_choice in p.name:
+            return p
+
+    raise FileNotFoundError(f"No template matching '{template_choice}' in {TEMPLATE_DIR}")
 
 
 def matching_original_for(template_path: Path):
@@ -87,7 +119,7 @@ def ensure_output_dir():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def main():
+def main(template_choice: str = None):
     ensure_output_dir()
 
     # Read colors from swatches
@@ -104,16 +136,12 @@ def main():
     for k, v in colors.items():
         print(f"  {k}: {v}")
 
-    # Choose a random template
-    tmpl = choose_random_template()
+    # Choose a template (random if not provided)
+    tmpl = choose_template(template_choice)
     print(f"Selected template: {tmpl.name}")
 
     # Try to locate original sprite (optional)
     original = matching_original_for(tmpl)
-    if original:
-        print(f"Original sprite to preserve unclassified pixels: {original}")
-    else:
-        print("No matching original sprite found; rendering without original image.")
 
     # Render
     renderer = SpriteRenderer(str(tmpl))
@@ -131,4 +159,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Render a sprite from swatches and a template")
+    parser.add_argument("--template", "-t", help="Template to use (path, filename, or substring). If omitted, a random template is chosen.")
+    args = parser.parse_args()
+    main(template_choice=args.template)
