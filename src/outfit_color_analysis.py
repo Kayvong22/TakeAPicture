@@ -36,7 +36,7 @@ def apply_clahe(img):
 # ---------------------------------------------------
 # Load segmentation PNG (RGBA)
 # ---------------------------------------------------
-png = cv2.imread("person_cutout.png", cv2.IMREAD_UNCHANGED)
+png = cv2.imread("./input_image/person_cutout.png", cv2.IMREAD_UNCHANGED)
 
 if png.shape[2] != 4:
     raise ValueError("Expected RGBA cutout PNG (with alpha).")
@@ -313,144 +313,144 @@ any_mask = (face_mask | hair_mask | torso_mask | legs_mask)
 vis_blend = vis.copy()
 vis_blend[any_mask] = cv2.addWeighted(vis[any_mask], 0.6, overlay[any_mask], 0.4, 0)
 cv2.imwrite(outpath(OUT_OVERLAYS, "color_region_overlay.jpg"), vis_blend)
-# Also save the original and CLAHE-normalized images for preview
-cv2.imwrite(outpath(OUT_IMAGES, "input_original.png"), bgr)
-cv2.imwrite(outpath(OUT_IMAGES, "input_clahe.png"), bgr_norm)
+# # Also save the original and CLAHE-normalized images for preview
+# cv2.imwrite(outpath(OUT_IMAGES, "input_original.png"), bgr)
+# cv2.imwrite(outpath(OUT_IMAGES, "input_clahe.png"), bgr_norm)
 
-# Create a simple 2x2 preview grid: original | CLAHE \n adjusted | overlay
-def make_preview_grid(imgs, thumb_size=(400,400)):
-    # imgs: list of 4 BGR images
-    resized = []
-    for im in imgs:
-        try:
-            r = cv2.resize(im, thumb_size, interpolation=cv2.INTER_AREA)
-        except Exception:
-            # if resize fails (e.g., None), create a blank image
-            r = np.zeros((thumb_size[1], thumb_size[0], 3), dtype=np.uint8)
-        resized.append(r)
+# # Create a simple 2x2 preview grid: original | CLAHE \n adjusted | overlay
+# def make_preview_grid(imgs, thumb_size=(400,400)):
+#     # imgs: list of 4 BGR images
+#     resized = []
+#     for im in imgs:
+#         try:
+#             r = cv2.resize(im, thumb_size, interpolation=cv2.INTER_AREA)
+#         except Exception:
+#             # if resize fails (e.g., None), create a blank image
+#             r = np.zeros((thumb_size[1], thumb_size[0], 3), dtype=np.uint8)
+#         resized.append(r)
 
-    top = np.hstack((resized[0], resized[1]))
-    bottom = np.hstack((resized[2], resized[3]))
-    grid = np.vstack((top, bottom))
-    return grid
+#     top = np.hstack((resized[0], resized[1]))
+#     bottom = np.hstack((resized[2], resized[3]))
+#     grid = np.vstack((top, bottom))
+#     return grid
 
-preview_imgs = [bgr, bgr_norm, bgr_adj, vis_blend]
-preview_grid = make_preview_grid(preview_imgs, thumb_size=(400,400))
-cv2.imwrite(outpath(OUT_PREV, "preview_grid.jpg"), preview_grid)
+# preview_imgs = [bgr, bgr_norm, bgr_adj, vis_blend]
+# preview_grid = make_preview_grid(preview_imgs, thumb_size=(400,400))
+# cv2.imwrite(outpath(OUT_PREV, "preview_grid.jpg"), preview_grid)
 
-# Write a tiny HTML preview that shows the grid and links to component images
-html = f"""<!doctype html>
-<html>
-<head><meta charset='utf-8'><title>Image preview</title></head>
-<body>
-<h2>Preview: original | CLAHE</h2>
-<h2>adjusted | overlay</h2>
-<img src='preview_grid.jpg' alt='preview grid' style='max-width:100%;height:auto;'>
-<p>Individual images:</p>
-<ul>
-  <li><a href='input_original.png'>input_original.png</a></li>
-  <li><a href='input_clahe.png'>input_clahe.png</a></li>
-  <li><a href='input_adjusted.png'>input_adjusted.png</a></li>
-  <li><a href='color_region_overlay.jpg'>color_region_overlay.jpg</a></li>
-  <li><a href='mask_face.png'>mask_face.png</a></li>
-  <li><a href='mask_torso.png'>mask_torso.png</a></li>
-  <li><a href='mask_hair.png'>mask_hair.png</a></li>
-  <li><a href='mask_legs.png'>mask_legs.png</a></li>
-</ul>
-</body>
-</html>
-"""
-def img_to_data_uri(img, fmt='.png'):
-        # encode image (BGR) to memory buffer then base64
-        ok, buf = cv2.imencode(fmt, img)
-        if not ok:
-                return ''
-        b64 = base64.b64encode(buf.tobytes()).decode('ascii')
-        mime = 'image/png' if fmt.lower().endswith('png') or fmt == '.png' else 'image/jpeg'
-        return f'data:{mime};base64,{b64}'
+# # Write a tiny HTML preview that shows the grid and links to component images
+# html = f"""<!doctype html>
+# <html>
+# <head><meta charset='utf-8'><title>Image preview</title></head>
+# <body>
+# <h2>Preview: original | CLAHE</h2>
+# <h2>adjusted | overlay</h2>
+# <img src='preview_grid.jpg' alt='preview grid' style='max-width:100%;height:auto;'>
+# <p>Individual images:</p>
+# <ul>
+#   <li><a href='input_original.png'>input_original.png</a></li>
+#   <li><a href='input_clahe.png'>input_clahe.png</a></li>
+#   <li><a href='input_adjusted.png'>input_adjusted.png</a></li>
+#   <li><a href='color_region_overlay.jpg'>color_region_overlay.jpg</a></li>
+#   <li><a href='mask_face.png'>mask_face.png</a></li>
+#   <li><a href='mask_torso.png'>mask_torso.png</a></li>
+#   <li><a href='mask_hair.png'>mask_hair.png</a></li>
+#   <li><a href='mask_legs.png'>mask_legs.png</a></li>
+# </ul>
+# </body>
+# </html>
+# """
+# def img_to_data_uri(img, fmt='.png'):
+#         # encode image (BGR) to memory buffer then base64
+#         ok, buf = cv2.imencode(fmt, img)
+#         if not ok:
+#                 return ''
+#         b64 = base64.b64encode(buf.tobytes()).decode('ascii')
+#         mime = 'image/png' if fmt.lower().endswith('png') or fmt == '.png' else 'image/jpeg'
+#         return f'data:{mime};base64,{b64}'
 
-# prepare inline data URIs for the four quadrant images
-data_original = img_to_data_uri(bgr, fmt='.png')
-data_clahe = img_to_data_uri(bgr_norm, fmt='.png')
-data_adjusted = img_to_data_uri(bgr_adj, fmt='.png')
-data_overlay = img_to_data_uri(vis_blend, fmt='.jpg')
+# # prepare inline data URIs for the four quadrant images
+# data_original = img_to_data_uri(bgr, fmt='.png')
+# data_clahe = img_to_data_uri(bgr_norm, fmt='.png')
+# data_adjusted = img_to_data_uri(bgr_adj, fmt='.png')
+# data_overlay = img_to_data_uri(vis_blend, fmt='.jpg')
 
-# prepare paths relative to preview.html which lives in OUTPUT_DIR
-rel_images = os.path.relpath(OUT_IMAGES, OUTPUT_DIR)
-rel_masks = os.path.relpath(OUT_MASKS, OUTPUT_DIR)
-rel_swatches = os.path.relpath(OUT_SWATCHES, OUTPUT_DIR)
-rel_overlays = os.path.relpath(OUT_OVERLAYS, OUTPUT_DIR)
-rel_previews = os.path.relpath(OUT_PREV, OUTPUT_DIR)
+# # prepare paths relative to preview.html which lives in OUTPUT_DIR
+# rel_images = os.path.relpath(OUT_IMAGES, OUTPUT_DIR)
+# rel_masks = os.path.relpath(OUT_MASKS, OUTPUT_DIR)
+# rel_swatches = os.path.relpath(OUT_SWATCHES, OUTPUT_DIR)
+# rel_overlays = os.path.relpath(OUT_OVERLAYS, OUTPUT_DIR)
+# rel_previews = os.path.relpath(OUT_PREV, OUTPUT_DIR)
 
-html = f"""<!doctype html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <title>Image preview</title>
-    <style>
-        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 20px; }}
-        .grid {{ display: grid; grid-template-columns: 1fr 1fr; grid-gap: 12px; max-width: 820px; }}
-        .cell {{ border: 1px solid #ddd; padding: 8px; background: #fafafa; text-align: center; }}
-        .cell h3 {{ margin: 6px 0; font-size: 16px; }}
-        .thumb {{ max-width: 100%; height: auto; border: 1px solid #ccc; }}
-        .actions {{ margin-top: 6px; }}
-        .btn {{ display: inline-block; padding: 6px 10px; margin: 0 6px; background: #007bff; color: white; text-decoration: none; border-radius: 4px; font-size: 13px; }}
-        .btn.secondary {{ background: #6c757d; }}
-    </style>
-</head>
-<body>
-    <h1>Image preview</h1>
-    <div class='grid'>
-        <div class='cell'>
-            <h3>Original</h3>
-            <img class='thumb' src='{data_original}' alt='original'>
-            <div class='actions'>
-                <a class='btn' href='{rel_images}/input_original.png' download>Download PNG</a>
-                <a class='btn secondary' href='{data_original}' target='_blank'>Open inline</a>
-            </div>
-        </div>
+# html = f"""<!doctype html>
+# <html>
+# <head>
+#     <meta charset='utf-8'>
+#     <title>Image preview</title>
+#     <style>
+#         body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 20px; }}
+#         .grid {{ display: grid; grid-template-columns: 1fr 1fr; grid-gap: 12px; max-width: 820px; }}
+#         .cell {{ border: 1px solid #ddd; padding: 8px; background: #fafafa; text-align: center; }}
+#         .cell h3 {{ margin: 6px 0; font-size: 16px; }}
+#         .thumb {{ max-width: 100%; height: auto; border: 1px solid #ccc; }}
+#         .actions {{ margin-top: 6px; }}
+#         .btn {{ display: inline-block; padding: 6px 10px; margin: 0 6px; background: #007bff; color: white; text-decoration: none; border-radius: 4px; font-size: 13px; }}
+#         .btn.secondary {{ background: #6c757d; }}
+#     </style>
+# </head>
+# <body>
+#     <h1>Image preview</h1>
+#     <div class='grid'>
+#         <div class='cell'>
+#             <h3>Original</h3>
+#             <img class='thumb' src='{data_original}' alt='original'>
+#             <div class='actions'>
+#                 <a class='btn' href='{rel_images}/input_original.png' download>Download PNG</a>
+#                 <a class='btn secondary' href='{data_original}' target='_blank'>Open inline</a>
+#             </div>
+#         </div>
 
-        <div class='cell'>
-            <h3>CLAHE Normalized</h3>
-            <img class='thumb' src='{data_clahe}' alt='clahe'>
-            <div class='actions'>
-                <a class='btn' href='{rel_images}/input_clahe.png' download>Download PNG</a>
-                <a class='btn secondary' href='{data_clahe}' target='_blank'>Open inline</a>
-            </div>
-        </div>
+#         <div class='cell'>
+#             <h3>CLAHE Normalized</h3>
+#             <img class='thumb' src='{data_clahe}' alt='clahe'>
+#             <div class='actions'>
+#                 <a class='btn' href='{rel_images}/input_clahe.png' download>Download PNG</a>
+#                 <a class='btn secondary' href='{data_clahe}' target='_blank'>Open inline</a>
+#             </div>
+#         </div>
 
-        <div class='cell'>
-            <h3>Adjusted (brightness / saturation)</h3>
-            <img class='thumb' src='{data_adjusted}' alt='adjusted'>
-            <div class='actions'>
-                <a class='btn' href='{rel_images}/input_adjusted.png' download>Download PNG</a>
-                <a class='btn secondary' href='{data_adjusted}' target='_blank'>Open inline</a>
-            </div>
-        </div>
+#         <div class='cell'>
+#             <h3>Adjusted (brightness / saturation)</h3>
+#             <img class='thumb' src='{data_adjusted}' alt='adjusted'>
+#             <div class='actions'>
+#                 <a class='btn' href='{rel_images}/input_adjusted.png' download>Download PNG</a>
+#                 <a class='btn secondary' href='{data_adjusted}' target='_blank'>Open inline</a>
+#             </div>
+#         </div>
 
-        <div class='cell'>
-            <h3>Region overlay</h3>
-            <img class='thumb' src='{data_overlay}' alt='overlay'>
-            <div class='actions'>
-                <a class='btn' href='{rel_overlays}/color_region_overlay.jpg' download>Download JPG</a>
-                <a class='btn secondary' href='{data_overlay}' target='_blank'>Open inline</a>
-            </div>
-        </div>
-    </div>
+#         <div class='cell'>
+#             <h3>Region overlay</h3>
+#             <img class='thumb' src='{data_overlay}' alt='overlay'>
+#             <div class='actions'>
+#                 <a class='btn' href='{rel_overlays}/color_region_overlay.jpg' download>Download JPG</a>
+#                 <a class='btn secondary' href='{data_overlay}' target='_blank'>Open inline</a>
+#             </div>
+#         </div>
+#     </div>
 
-    <h4>Other artifacts</h4>
-    <ul>
-        <li><a href='{rel_previews}/preview_grid.jpg'>preview_grid.jpg</a></li>
-        <li><a href='{rel_masks}/mask_face.png'>mask_face.png</a></li>
-        <li><a href='{rel_masks}/mask_hair.png'>mask_hair.png</a></li>
-        <li><a href='{rel_masks}/mask_torso.png'>mask_torso.png</a></li>
-        <li><a href='{rel_masks}/mask_legs.png'>mask_legs.png</a></li>
-    </ul>
-</body>
-</html>
-"""
+#     <h4>Other artifacts</h4>
+#     <ul>
+#         <li><a href='{rel_previews}/preview_grid.jpg'>preview_grid.jpg</a></li>
+#         <li><a href='{rel_masks}/mask_face.png'>mask_face.png</a></li>
+#         <li><a href='{rel_masks}/mask_hair.png'>mask_hair.png</a></li>
+#         <li><a href='{rel_masks}/mask_torso.png'>mask_torso.png</a></li>
+#         <li><a href='{rel_masks}/mask_legs.png'>mask_legs.png</a></li>
+#     </ul>
+# </body>
+# </html>
+# """
 
-with open(outpath(OUTPUT_DIR, "preview.html"), "w", encoding="utf-8") as f:
-    f.write(html)
+# with open(outpath(OUTPUT_DIR, "preview.html"), "w", encoding="utf-8") as f:
+#     f.write(html)
 
 print(f"Completed: saved outputs under '{OUTPUT_DIR}/' (masks, swatches, overlays, images, previews). Preview available at {outpath(OUTPUT_DIR,'preview.html')}")
