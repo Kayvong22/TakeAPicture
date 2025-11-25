@@ -1,0 +1,9 @@
+.venv_TakeAPicture/
+venv/
+env/
+outputs/
+sprites_final/
+__pycache__/
+*.pyc
+*.so
+*.dylib

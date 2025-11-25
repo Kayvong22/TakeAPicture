@@ -1,0 +1,3276 @@
+{
+  "width": 32,
+  "height": 32,
+  "pixels": [
+    {
+      "x": 12,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 17,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 18,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 17,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 18,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 19,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 18,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "category": "top",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 18,
+      "y": 26,
+      "category": "top",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 15,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 136,
+        "g": 136,
+        "b": 144
+      }
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 12,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "category": "top",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "category": "top",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 11,
+      "y": 25,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 14,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 21,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 136,
+        "g": 136,
+        "b": 144
+      }
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 136,
+        "g": 136,
+        "b": 144
+      }
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 19,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 16,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 16,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 16,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 14,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 14,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 15,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 15,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 136,
+        "g": 136,
+        "b": 144
+      }
+    },
+    {
+      "x": 17,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 48,
+        "g": 48,
+        "b": 56
+      }
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 10,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 136,
+        "g": 136,
+        "b": 144
+      }
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 136,
+        "g": 136,
+        "b": 144
+      }
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 88,
+        "g": 88,
+        "b": 104
+      }
+    },
+    {
+      "x": 13,
+      "y": 21,
+      "category": "bottom",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 13,
+      "y": 20,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 12,
+      "y": 20,
+      "category": "bottom",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "category": "bottom",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "category": "bottom",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "category": "bottom",
+      "original_color": {
+        "r": 168,
+        "g": 160,
+        "b": 200
+      }
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "category": "bottom",
+      "original_color": {
+        "r": 240,
+        "g": 184,
+        "b": 24
+      }
+    },
+    {
+      "x": 17,
+      "y": 19,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "category": "bottom",
+      "original_color": {
+        "r": 216,
+        "g": 208,
+        "b": 240
+      }
+    },
+    {
+      "x": 17,
+      "y": 21,
+      "category": "bottom",
+      "original_color": {
+        "r": 240,
+        "g": 184,
+        "b": 24
+      }
+    },
+    {
+      "x": 13,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 18,
+      "y": 27,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 19,
+      "y": 27,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 12,
+      "y": 27,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 11,
+      "y": 27,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 19,
+      "y": 20,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 22,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 22,
+      "y": 20,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 22,
+      "y": 19,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 21,
+      "y": 18,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 23,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 23,
+      "y": 12,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 23,
+      "y": 11,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 22,
+      "y": 13,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "category": "outline",
+      "original_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "x": 21,
+      "y": 22,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 21,
+      "y": 23,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 22,
+      "y": 23,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 22,
+      "y": 22,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 22,
+      "y": 21,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 23,
+      "y": 21,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 23,
+      "y": 22,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 9,
+      "y": 23,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 9,
+      "y": 22,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 8,
+      "y": 23,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 22,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 22,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 17,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 16,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 120,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 19,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 19,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 19,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 14,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 15,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 16,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 248,
+        "g": 208,
+        "b": 184
+      }
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 216,
+        "g": 152,
+        "b": 112
+      }
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 19,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 20,
+      "y": 3,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 21,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 21,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 21,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 21,
+      "y": 12,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 20,
+      "y": 12,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 17,
+      "y": 11,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 56,
+        "g": 104,
+        "b": 176
+      }
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 48,
+        "g": 56,
+        "b": 136
+      }
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "category": "hair",
+      "original_color": {
+        "r": 88,
+        "g": 160,
+        "b": 216
+      }
+    }
+  ]
+}

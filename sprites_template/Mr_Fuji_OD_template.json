@@ -1,0 +1,2006 @@
+{
+  "width": 32,
+  "height": 32,
+  "pixels": [
+    {
+      "x": 19,
+      "y": 24,
+      "category": "bottom",
+      "original_color": {
+        "r": 107,
+        "g": 82,
+        "b": 156
+      }
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "category": "bottom",
+      "original_color": {
+        "r": 107,
+        "g": 82,
+        "b": 156
+      }
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 14,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 18,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 19,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 19,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 20,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 21,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 22,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 22,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 22,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 21,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 21,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 17,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 19,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 19,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 15,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 14,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 13,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 10,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 22,
+      "y": 16,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 23,
+      "y": 17,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 23,
+      "y": 19,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 17,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 16,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 14,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 13,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 12,
+      "y": 20,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 15,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 17,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 18,
+      "y": 22,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 17,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 99,
+        "g": 132,
+        "b": 66
+      }
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 140,
+        "g": 173,
+        "b": 90
+      }
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "category": "top",
+      "original_color": {
+        "r": 49,
+        "g": 57,
+        "b": 33
+      }
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 123,
+        "g": 66,
+        "b": 66
+      }
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 17,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 12,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 16,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 17,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 255,
+        "g": 214,
+        "b": 189
+      }
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 20,
+      "y": 16,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "category": "skin",
+      "original_color": {
+        "r": 222,
+        "g": 156,
+        "b": 115
+      }
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "category": "skin",
+      "original_color": {
+        "r": 239,
+        "g": 181,
+        "b": 132
+      }
+    }
+  ]
+}
