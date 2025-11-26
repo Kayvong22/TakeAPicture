@@ -2,8 +2,8 @@ from rembg import remove
 from PIL import Image
 
 # Load your image
-input_path = "/Users/kayvon/Projects/TakeAPicture/input_image/IMG_1290.JPG"
-output_path = "/Users/kayvon/Projects/TakeAPicture/input_image/person_cutout.png"
+input_path = "./input_image/IMG_1290.JPG"
+output_path = "./input_image/person_cutout.png"
 
 input_image = Image.open(input_path)
 
