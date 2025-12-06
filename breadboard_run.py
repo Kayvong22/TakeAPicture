@@ -1,20 +1,11 @@
-"""
-Render a random sprite using color analysis swatches saved in `outputs/swatches`.
-
-Reads swatch PNGs (prefers plain -> median -> dominant), selects a random
-template from `sprites_template/`, optionally uses the matching original
-in `sprites_original/` if present, then renders and saves to `sprites_final/`.
-
-Usage (from project root):
-    python3 src/render_your_sprite.py
-
-Optional environment variables / args can be added later.
-"""
 import os
 import random
 import argparse
+import time
 from pathlib import Path
 from PIL import Image
+from gpiozero import LED, Button
+from signal import pause
 
 # Attempt to import the renderer from the same folder
 try:
@@ -30,6 +21,14 @@ TEMPLATE_DIR = ROOT / "sprites_template"
 ORIGINAL_DIR = ROOT / "sprites_original"
 OUTPUT_DIR = ROOT / "sprites_final"
 
+led1 = LED(17)
+led2 = LED(27)
+led3 = LED(22)
+button = Button(26)
+
+led1.off()
+led2.off()
+led3.off()
 
 def swatch_candidates(category: str):
     """Return candidate filenames (in order of preference) for a category."""
@@ -121,6 +120,7 @@ def ensure_output_dir():
 
 def main(template_choice: str = None):
     ensure_output_dir()
+    led1.on()
 
     # Read colors from swatches
     categories = ["skin", "hair", "top", "bottom"]
@@ -139,6 +139,8 @@ def main(template_choice: str = None):
     # Choose a template (random if not provided)
     tmpl = choose_template(template_choice)
     print(f"Selected template: {tmpl.name}")
+    led1.off()
+    led2.on()
 
     # Try to locate original sprite (optional)
     original = matching_original_for(tmpl)
@@ -156,10 +158,14 @@ def main(template_choice: str = None):
         renderer.save_render(colors, str(out_path), scale=1, original_image_path=original)
 
     print(f"Saved rendered sprite to: {out_path}")
+    led2.off()
+    led3.on()
+    time.sleep(10)
+    led3.off()
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Render a sprite from swatches and a template")
     parser.add_argument("--template", "-t", help="Template to use (path, filename, or substring). If omitted, a random template is chosen.")
     args = parser.parse_args()
-    main(template_choice=args.template)
+    button.when_pressed = lambda: main(template_choice=args.template)
