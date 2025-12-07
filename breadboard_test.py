@@ -12,7 +12,7 @@ led3.off()
 
 led_index = 0
 
-def switch_led(led_index=0):
+def switch_led():
     global led_index
     if led_index == 0:
         led1.on()
