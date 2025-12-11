@@ -6,6 +6,7 @@ from pathlib import Path
 from PIL import Image
 from gpiozero import LED, Button
 from signal import pause
+import signal
 
 # Attempt to import the renderer from the same folder
 try:
@@ -227,7 +228,54 @@ if __name__ == "__main__":
     if args.template:
         main(template_choice=args.template)
     else:
-        # No template provided: set button to trigger a run using a random template
-        button.when_pressed = lambda: main(template_choice=None)
-        # Wait for button presses (keep process alive)
+        # No template provided: set up press/release handlers so
+        # - short press -> run with a random template
+        # - long hold (>= 3s) -> flash all LEDs together 5 times
+        HOLD_SECONDS = 3.0
+        FLASH_COUNT = 5
+        FLASH_INTERVAL = 0.5
+
+        press_time = {"t": None}
+
+        def flash_all(count=FLASH_COUNT, interval=FLASH_INTERVAL):
+            for _ in range(count):
+                try:
+                    led1.on(); led2.on(); led3.on()
+                except Exception:
+                    pass
+                time.sleep(interval)
+                try:
+                    led1.off(); led2.off(); led3.off()
+                except Exception:
+                    pass
+
+        def _on_pressed():
+            press_time["t"] = time.time()
+
+        def _on_released():
+            t0 = press_time.get("t")
+            press_time["t"] = None
+            if t0 is None:
+                return
+            held = time.time() - t0
+            if held >= HOLD_SECONDS:
+                # Long press: flash all LEDs
+                flash_all()
+                # After flashing, terminate the process like Ctrl+C (SIGINT)
+                try:
+                    os.kill(os.getpid(), signal.SIGINT)
+                except Exception:
+                    # As a last resort, exit immediately
+                    os._exit(0)
+            else:
+                # Short press: run rendering with random template
+                # Run in the same thread (blocking) as before
+                main(template_choice=None)
+
+        # Configure the button handlers
+        button.hold_time = HOLD_SECONDS
+        button.when_pressed = _on_pressed
+        button.when_released = _on_released
+
+        # Keep process alive waiting for presses
         pause()
