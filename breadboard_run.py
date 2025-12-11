@@ -120,52 +120,74 @@ def ensure_output_dir():
 
 def main(template_choice: str = None):
     ensure_output_dir()
-    led1.on()
-
-    # Read colors from swatches
-    categories = ["skin", "hair", "top", "bottom"]
-    colors = {}
-    for c in categories:
-        hexcol = read_swatch_hex(c)
-        if hexcol is None:
-            print(f"Warning: no swatch found for '{c}' in {SWATCH_DIR}; using fallback gray")
-            hexcol = "#888888"
-        colors[c] = hexcol
-
-    print("Using colors:")
-    for k, v in colors.items():
-        print(f"  {k}: {v}")
-
-    # Choose a template (random if not provided)
-    tmpl = choose_template(template_choice)
-    print(f"Selected template: {tmpl.name}")
-    led1.off()
-    led2.on()
-
-    # Try to locate original sprite (optional)
-    original = matching_original_for(tmpl)
-
-    # Render
-    renderer = SpriteRenderer(str(tmpl))
-
-    name = tmpl.name.replace("_template.json", "")
-    out_path = OUTPUT_DIR / f"{name}.png"
-
+    # Ensure LEDs are always turned off on exit/error
     try:
-        renderer.save_render(colors, str(out_path), scale=1, background_color=None, original_image_path=original)
-    except TypeError:
-        # Older renderer signature may not accept background_color first; try without it
-        renderer.save_render(colors, str(out_path), scale=1, original_image_path=original)
+        led1.on()
 
-    print(f"Saved rendered sprite to: {out_path}")
-    led2.off()
-    led3.on()
-    time.sleep(10)
-    led3.off()
+        # Read colors from swatches
+        categories = ["skin", "hair", "top", "bottom"]
+        colors = {}
+        for c in categories:
+            hexcol = read_swatch_hex(c)
+            if hexcol is None:
+                print(f"Warning: no swatch found for '{c}' in {SWATCH_DIR}; using fallback gray")
+                hexcol = "#888888"
+            colors[c] = hexcol
+
+        print("Using colors:")
+        for k, v in colors.items():
+            print(f"  {k}: {v}")
+
+        # Choose a template (random if not provided)
+        tmpl = choose_template(template_choice)
+        print(f"Selected template: {tmpl.name}")
+        led1.off()
+        led2.on()
+
+        # Try to locate original sprite (optional)
+        original = matching_original_for(tmpl)
+
+        # Render
+        renderer = SpriteRenderer(str(tmpl))
+
+        name = tmpl.name.replace("_template.json", "")
+        out_path = OUTPUT_DIR / f"{name}.png"
+
+        try:
+            renderer.save_render(colors, str(out_path), scale=1, background_color=None, original_image_path=original)
+        except TypeError:
+            # Older renderer signature may not accept background_color first; try without it
+            renderer.save_render(colors, str(out_path), scale=1, original_image_path=original)
+
+        print(f"Saved rendered sprite to: {out_path}")
+        led2.off()
+        led3.on()
+        time.sleep(10)
+    finally:
+        # Ensure all LEDs are turned off even if something fails
+        try:
+            led3.off()
+        except Exception:
+            pass
+        try:
+            led2.off()
+        except Exception:
+            pass
+        try:
+            led1.off()
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Render a sprite from swatches and a template")
     parser.add_argument("--template", "-t", help="Template to use (path, filename, or substring). If omitted, a random template is chosen.")
     args = parser.parse_args()
-    button.when_pressed = lambda: main(template_choice=args.template)
+    # If a template was provided on the command line, run once and exit
+    if args.template:
+        main(template_choice=args.template)
+    else:
+        # No template provided: set button to trigger a run using a random template
+        button.when_pressed = lambda: main(template_choice=None)
+        # Wait for button presses (keep process alive)
+        pause()
