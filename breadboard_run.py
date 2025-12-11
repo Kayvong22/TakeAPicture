@@ -15,7 +15,47 @@ except Exception:
     from src.sprite_renderer import SpriteRenderer
 
 
-ROOT = Path(__file__).resolve().parents[1]
+def find_repo_root():
+    """Return a sensible project root.
+
+    Prefer the current working directory if it looks like the project (contains
+    expected marker files/folders). Otherwise try to locate a repository root
+    relative to this file. This avoids cases where `__file__` points into the
+    system python lib (e.g. `/usr/lib/python3.13/...`) when the module was
+    installed or run in an unusual way.
+    """
+    cwd = Path.cwd().resolve()
+    markers = ["sprites_template", "src", "breadboard_run.py", ".git", "README.md"]
+
+    # If current working directory contains any repo markers, prefer it.
+    try:
+        if any((cwd / m).exists() for m in markers):
+            return cwd
+    except Exception:
+        # In some restricted environments Path.cwd() may fail; we'll ignore and fallthrough
+        pass
+
+    # Fallback: resolve relative to this file and walk up looking for markers
+    try:
+        base = Path(__file__).resolve()
+    except Exception:
+        # If __file__ isn't available, return cwd
+        return cwd
+
+    p = base
+    # Walk upwards up to filesystem root
+    while True:
+        if any((p / m).exists() for m in markers):
+            return p
+        if p.parent == p:
+            break
+        p = p.parent
+
+    # Final fallback to cwd
+    return cwd
+
+
+ROOT = find_repo_root()
 SWATCH_DIR = ROOT / "outputs" / "swatches"
 TEMPLATE_DIR = ROOT / "sprites_template"
 ORIGINAL_DIR = ROOT / "sprites_original"
