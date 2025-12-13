@@ -1,20 +1,24 @@
+import argparse
 import os
 import random
-import argparse
+import signal
 import time
+from gpiozero import LED, Button
 from pathlib import Path
 from PIL import Image
-from gpiozero import LED, Button
+from rembg import remove
 from signal import pause
-import signal
 
-# Attempt to import the renderer from the same folder
 try:
     from sprite_renderer import SpriteRenderer
 except Exception:
     # If running from project root, allow import via src package style
     from src.sprite_renderer import SpriteRenderer
 
+try:
+    from color_analysis import ColorAnalysis
+except Exception:
+    from src.color_analysis import ColorAnalysis
 
 def find_repo_root():
     """Return a sensible project root.
@@ -154,6 +158,13 @@ def matching_original_for(template_path: Path):
         return str(candidate)
     return None
 
+def cutout_person_from_image(input_path: str, output_path: str):
+    """Cut out the person from the input image and save with transparency."""
+    input_image = Image.open(input_path)
+    # Remove background
+    output_image = remove(input_image)
+    # Save with transparency
+    output_image.save(output_path)
 
 def ensure_output_dir():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -163,8 +174,21 @@ def main(template_choice: str = None):
     ensure_output_dir()
     # Ensure LEDs are always turned off on exit/error
     try:
-        led1.on()
+        # Cut out person from input image
+        INPUT_IMAGE_PATH = "./input_image/IMG_1290.JPG"
+        PERSON_CUTOUT_PATH = "./input_image/person_cutout.png"
 
+        cutout_person_from_image(input_path=INPUT_IMAGE_PATH, output_path=PERSON_CUTOUT_PATH)
+        print(f"Cut out person from image and saved to {PERSON_CUTOUT_PATH}")
+
+        led1.on()
+        # Analyze outfit colors from cutout and save swatches
+        ColorAnalysis(person_cutout_path=PERSON_CUTOUT_PATH)
+        print(f"Analyzed outfit colors and saved swatches to {SWATCH_DIR}")
+
+        led1.off()
+        led2.on()
+        
         # Read colors from swatches
         categories = ["skin", "hair", "top", "bottom"]
         colors = {}
@@ -182,8 +206,6 @@ def main(template_choice: str = None):
         # Choose a template (random if not provided)
         tmpl = choose_template(template_choice)
         print(f"Selected template: {tmpl.name}")
-        led1.off()
-        led2.on()
 
         # Try to locate original sprite (optional)
         original = matching_original_for(tmpl)
@@ -279,3 +301,9 @@ if __name__ == "__main__":
 
         # Keep process alive waiting for presses
         pause()
+
+
+##############################
+# I want to add the cutout person into the breadboard_run.py ## DONE
+# I want to edit outfit_color_analysis.py similar to sprite renderer to it can create swatches
+##############################
