@@ -11,14 +11,13 @@ from signal import pause
 
 try:
     from sprite_renderer import SpriteRenderer
-except Exception:
-    # If running from project root, allow import via src package style
-    from src.sprite_renderer import SpriteRenderer
-
-try:
     from color_analysis import ColorAnalysis
+    from cut_person_from_image import CutPersonFromImage
 except Exception:
+    from src.sprite_renderer import SpriteRenderer
     from src.color_analysis import ColorAnalysis
+    from src.cut_person_from_image import CutPersonFromImage
+
 
 def find_repo_root():
     """Return a sensible project root.
@@ -60,12 +59,14 @@ def find_repo_root():
     return cwd
 
 
+# Define directories
 ROOT = find_repo_root()
 SWATCH_DIR = ROOT / "outputs" / "swatches"
 TEMPLATE_DIR = ROOT / "sprites_template"
 ORIGINAL_DIR = ROOT / "sprites_original"
 OUTPUT_DIR = ROOT / "sprites_final"
 
+# Set up GPIO
 led1 = LED(17)
 led2 = LED(27)
 led3 = LED(22)
@@ -74,6 +75,7 @@ button = Button(26)
 led1.off()
 led2.off()
 led3.off()
+
 
 def swatch_candidates(category: str):
     """Return candidate filenames (in order of preference) for a category."""
@@ -158,32 +160,22 @@ def matching_original_for(template_path: Path):
         return str(candidate)
     return None
 
-def cutout_person_from_image(input_path: str, output_path: str):
-    """Cut out the person from the input image and save with transparency."""
-    input_image = Image.open(input_path)
-    # Remove background
-    output_image = remove(input_image)
-    # Save with transparency
-    output_image.save(output_path)
 
 def ensure_output_dir():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def main(template_choice: str = None):
+def main(input_image_path: str, person_cutout_path: str, template_choice: str = None):
     ensure_output_dir()
     # Ensure LEDs are always turned off on exit/error
     try:
         # Cut out person from input image
-        INPUT_IMAGE_PATH = "./input_image/IMG_1290.JPG"
-        PERSON_CUTOUT_PATH = "./input_image/person_cutout.png"
-
-        cutout_person_from_image(input_path=INPUT_IMAGE_PATH, output_path=PERSON_CUTOUT_PATH)
-        print(f"Cut out person from image and saved to {PERSON_CUTOUT_PATH}")
+        CutPersonFromImage(input_path=input_image_path, output_path=person_cutout_path)
+        print(f"Cut out person from image and saved to {person_cutout_path}")
 
         led1.on()
         # Analyze outfit colors from cutout and save swatches
-        ColorAnalysis(person_cutout_path=PERSON_CUTOUT_PATH)
+        ColorAnalysis(person_cutout_path=person_cutout_path)
         print(f"Analyzed outfit colors and saved swatches to {SWATCH_DIR}")
 
         led1.off()
@@ -246,13 +238,17 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Render a sprite from swatches and a template")
     parser.add_argument("--template", "-t", help="Template to use (path, filename, or substring). If omitted, a random template is chosen.")
     args = parser.parse_args()
+    
+    INPUT_IMAGE_PATH = "./input_image/IMG_1290.JPG"
+    PERSON_CUTOUT_PATH = "./input_image/person_cutout.png"
+
     # If a template was provided on the command line, run once and exit
     if args.template:
-        main(template_choice=args.template)
+        main(input_image_path=INPUT_IMAGE_PATH, person_cutout_path=PERSON_CUTOUT_PATH, template_choice=args.template)
     else:
         # No template provided: set up press/release handlers so
         # - short press -> run with a random template
-        # - long hold (>= 3s) -> flash all LEDs together 5 times
+        # - long hold (>= 3s) -> flash all LEDs together 5 times and exit
         HOLD_SECONDS = 3.0
         FLASH_COUNT = 5
         FLASH_INTERVAL = 0.5
@@ -292,7 +288,7 @@ if __name__ == "__main__":
             else:
                 # Short press: run rendering with random template
                 # Run in the same thread (blocking) as before
-                main(template_choice=None)
+                main(input_image_path=INPUT_IMAGE_PATH, person_cutout_path=PERSON_CUTOUT_PATH, template_choice=None)
 
         # Configure the button handlers
         button.hold_time = HOLD_SECONDS
@@ -301,9 +297,3 @@ if __name__ == "__main__":
 
         # Keep process alive waiting for presses
         pause()
-
-
-##############################
-# I want to add the cutout person into the breadboard_run.py ## DONE
-# I want to edit outfit_color_analysis.py similar to sprite renderer to it can create swatches
-##############################
